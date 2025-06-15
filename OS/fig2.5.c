@@ -3,7 +3,7 @@
 #include<pthread.h>
 
 volatile int counter = 0;
-int loops = 1000;
+int loops;
 
 void *worker(void *arg) {
     int i;
